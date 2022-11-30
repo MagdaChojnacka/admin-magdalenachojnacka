@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product__c.Price__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product__c.Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Admin Access</label>
+    <label>Employee Access</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Product__c</object>
+        <object>Order__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>Product__c</tab>
+        <tab>Order__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
