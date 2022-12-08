@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumberDraftProducts__c</fullName>
+    <externalId>false</externalId>
+    <label>NumberDraftProducts</label>
+    <summaryFilterItems>
+        <field>Product_Category__c.Technical_Product_Status_for_Rollup__c</field>
+        <operation>equals</operation>
+        <value>Draft</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Product_Category__c.Category__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
