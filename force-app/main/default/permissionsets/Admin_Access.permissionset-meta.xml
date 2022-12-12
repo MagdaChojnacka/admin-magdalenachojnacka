@@ -42,6 +42,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Product_Category__c.Technical_Product_Status_for_Rollup__c</field>
+        <field>Product__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
