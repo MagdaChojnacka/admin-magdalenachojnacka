@@ -7,6 +7,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Category__c.Parent__c</field>
+        <readable>true</readable>
     <fieldPermissions>
         <editable>true</editable>
         <field>Product__c.Price__c</field>
@@ -30,6 +31,10 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Product_Category__c.Technical_Product_Status_for_Rollup__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Product__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
