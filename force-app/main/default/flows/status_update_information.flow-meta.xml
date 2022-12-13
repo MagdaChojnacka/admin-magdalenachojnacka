@@ -23,7 +23,7 @@
         <inputParameters>
             <name>emailSubject</name>
             <value>
-                <stringValue>Your status was changed</stringValue>
+                <stringValue>Your order status was changed</stringValue>
             </value>
         </inputParameters>
     </actionCalls>
