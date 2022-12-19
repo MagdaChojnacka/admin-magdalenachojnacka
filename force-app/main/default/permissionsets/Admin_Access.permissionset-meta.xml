@@ -32,11 +32,25 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>OrderLineItem__c.Unit_List_Price__c</field>
+    </fieldPermissions>    
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order__c.Billing_Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Order__c.Billing_Account__c</field>
+        <field>Order__c.Billing_Company_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order__c.Billing_VAT_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order__c.Is_B2B__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
