@@ -163,6 +163,17 @@
                 <behavior>Edit</behavior>
                 <field>Description</field>
             </layoutItems>
+            <layoutItems>
+                <reportChartComponent>
+                    <cacheData>true</cacheData>
+                    <contextFilterableField>Account.Id</contextFilterableField>
+                    <hideOnError>false</hideOnError>
+                    <includeContext>true</includeContext>
+                    <reportName>Report_of_orders_for_accounts_X9n</reportName>
+                    <showTitle>false</showTitle>
+                    <size>SMALL</size>
+                </reportChartComponent>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
