@@ -17,6 +17,8 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>Product__c</tabs>
+    <tabs>Order__c</tabs>
+    <tabs>standard-report</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>online_shop_UtilityBar</utilityBar>
 </CustomApplication>
