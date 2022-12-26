@@ -1,0 +1,3 @@
+Thank you for your e-mail. 
+Your case number: {!Case.CaseNumber}
+This case will be proceeded by {!Case.OwnerFullName}
