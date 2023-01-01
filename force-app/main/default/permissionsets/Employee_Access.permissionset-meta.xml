@@ -56,6 +56,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Order__c.Payment_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Order__c.Shipping_City__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -128,6 +133,10 @@
         <object>Order__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>OrderLineItem__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
     <tabSettings>
         <tab>Order__c</tab>
         <visibility>Visible</visibility>
