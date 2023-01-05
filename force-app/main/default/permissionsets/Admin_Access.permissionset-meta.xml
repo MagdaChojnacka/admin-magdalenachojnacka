@@ -45,11 +45,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>OrderLineItem__c.VAT_Rate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>OrderLineItem__c.VAT_Rate__c</field>
         <readable>true</readable>
@@ -72,6 +67,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Order__c.Is_B2B__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order__c.PayUPaymentLink__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
