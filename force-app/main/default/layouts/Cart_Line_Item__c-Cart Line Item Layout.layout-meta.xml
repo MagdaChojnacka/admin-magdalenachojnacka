@@ -28,7 +28,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Effective_Unit_Price__c</field>
+                <field>EffectiveUnitPrice__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -36,7 +36,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Total_Net_Price__c</field>
+                <field>TotalNetPrice__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
